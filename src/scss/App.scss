@@ -1,0 +1,18 @@
+.container {
+    width: 50% !important;
+    height: 200px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+}
+
+textarea.ant-input {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white !important;
+    width: 100%;
+}

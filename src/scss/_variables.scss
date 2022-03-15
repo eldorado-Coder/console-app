@@ -1,0 +1,91 @@
+
+
+// Typography
+$font-family-itc-franklin-gothic: "ITC Franklin Gothic";
+$font-family-itc-franklin-gothic-medium-condensed: "ITC Franklin Gothic Medium Condensed";
+
+//colors
+$text-color: #58595b;
+$varuna-light-blue: #7dd7f0;
+$varuna-blue: #0088b2;
+$varuna-water-blue:  #00a6d3;
+$background-color: #e6e7e8;
+$red-color:#c73c5c;
+$orange-color: #da693e;
+$yellow-color: #f4a335;
+$green-color: #74a242;
+$teal-color: #009396;
+$dark-blue: #23628d;
+
+//screen
+$breakpoint-device576: 576px;
+$breakpoint-device768: 768px;
+$breakpoint-device991: 991px;
+$breakpoint-device1024: 1024px;
+$breakpoint-device1100: 1100px;
+$breakpoint-device1200: 1200px;
+$breakpoint-device1400: 1400px;
+$breakpoint-device1500: 1500px;
+
+//breakpoint
+@mixin device576 {
+  @media (max-width: #{$breakpoint-device576 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device768 {
+  @media (max-width: #{$breakpoint-device768 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device768Min {
+  @media (min-width: #{$breakpoint-device768}) {
+    @content;
+  }
+}
+
+@mixin device991 {
+  @media (max-width: #{$breakpoint-device991 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device1024 {
+  @media (max-width: #{$breakpoint-device1024 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device1100 {
+  @media (max-width: #{$breakpoint-device1100 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device1200 {
+  @media (max-width: #{$breakpoint-device1200 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device1400 {
+  @media (max-width: #{$breakpoint-device1400 - 1px}) {
+    @content;
+  }
+}
+
+@mixin device1500 {
+  @media (max-width: #{$breakpoint-device1500 - 1px}) {
+    @content;
+  }
+}
+
+
+@mixin device1500Min {
+  @media (min-width: #{$breakpoint-device1500 - 1px}) {
+    @content;
+  }
+}
+

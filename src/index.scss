@@ -1,0 +1,38 @@
+@import url(//db.onlinewebfonts.com/c/23ed4491e39daa3c41a8db18addba86e?family=ITC+Franklin+Gothic);
+@import url(//db.onlinewebfonts.com/c/910a46e5f4be20450c16010a5d35237c?family=ITC+Franklin+Gothic);
+
+@font-face {
+  font-family: "ITC Franklin Gothic Medium Condensed";
+  src: url("//db.onlinewebfonts.com/t/23ed4491e39daa3c41a8db18addba86e.eot");
+  src: url("//db.onlinewebfonts.com/t/23ed4491e39daa3c41a8db18addba86e.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/23ed4491e39daa3c41a8db18addba86e.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/23ed4491e39daa3c41a8db18addba86e.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/23ed4491e39daa3c41a8db18addba86e.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/23ed4491e39daa3c41a8db18addba86e.svg#ITC Franklin Gothic") format("svg");
+}
+
+@font-face {
+  font-family: "ITC Franklin Gothic";
+  src: url("//db.onlinewebfonts.com/t/910a46e5f4be20450c16010a5d35237c.eot");
+  src: url("//db.onlinewebfonts.com/t/910a46e5f4be20450c16010a5d35237c.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/910a46e5f4be20450c16010a5d35237c.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/910a46e5f4be20450c16010a5d35237c.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/910a46e5f4be20450c16010a5d35237c.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/910a46e5f4be20450c16010a5d35237c.svg#ITC Franklin Gothic") format("svg");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "ITC Franklin Gothic", "Noto Sans", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #58595b !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
